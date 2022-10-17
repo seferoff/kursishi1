@@ -443,6 +443,7 @@
   .footer-content {
     display: flex;
     gap: 633px;
+    justify-content: space-between;
   }
   .footer-content .footer-left,
   .footer-right {
@@ -806,6 +807,7 @@
     background-color: #efefef;
     display: flex;
     align-items: center;
+    width: 100vw;
     /* padding-top: 106px; */
     /* margin-top: 52px; */
   }
@@ -886,7 +888,7 @@
     font-size: 32px;
     line-height: 101.38%;
     color: #000000;
-    margin-bottom: 138px;
+    margin-bottom: 88px;
   }
   .section-start-course .course-content .price-tag {
     display: flex;
@@ -935,6 +937,9 @@
     font-size: 10px;
     line-height: 101.38%;
     color: #000000;
+  }
+  .section-start-course{
+    padding-top: 100px;
   }
   footer {
     max-width: 763px;
@@ -1177,7 +1182,7 @@
     font-weight: bold;
     padding-top: 2px;
     padding-left: 9.32px;
-    padding-bottom: 16px;
+    padding-bottom: 3px;
   }
   .card-text {
     font-size: 12px;
@@ -1213,6 +1218,8 @@
     box-shadow: rgba(83, 81, 81, 0.35) 0px 5px 15px;
     margin-left: 35px;
     margin-top: 28px;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 18.47px;
   }
   .rectangle-text {
@@ -1294,7 +1301,7 @@
   }
   footer {
     background-color: black;
-    width: 377px;
+    width: 343px;
     height: 251px;
     padding-left: 37.5px;
     padding-top: 22.5px;
