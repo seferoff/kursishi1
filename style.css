@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 .container {
-  width: 100%;
+  margin: 0 auto;
   background-color: #ffffff;
 }
 /* Desktop */
@@ -511,7 +511,7 @@
 /* Tablet */
 @media (max-width: 1279px) and (min-width: 834px) {
   .container {
-    max-width: 834px;
+    width: 834px;
     margin-top: 22px;
   }
 
@@ -862,8 +862,8 @@
     display: flex;
     align-items: center;
     width: 100vw;
-    /* padding-top: 106px; */
-    /* margin-top: 52px; */
+    box-shadow: 0 0 0 100vmax #efefef;
+    clip-path: inset(0 -100vmax);
   }
   .section-team .section-title {
     max-width: 571.64px;
@@ -996,7 +996,7 @@
     padding-top: 100px;
   }
   footer {
-    max-width: 763px;
+    width: 763px;
     height: 225.88px;
     background-color: #000000;
     margin-left: 70.66px;
@@ -1059,9 +1059,11 @@
   body {
     font-family: Roboto;
   }
+  .container{
+    width: 375px;
+  }
   header,
   .section-program,
-  .section-start-course,
   .section-preview,
   .section-about,
   .section-class,
@@ -1275,29 +1277,27 @@
   }
   .section-team {
     background-color: #efefef;
-    width: 376px;
+    width: 100vw;
     height: 423px;
     margin-top: 47px;
-    margin-left: -34px;
     padding-left: 34px;
+    box-shadow: 0 0 0 100vmax #efefef;
+    clip-path: inset(0 -100vmax);
   }
   .team-content h1 {
     padding-top: 42px;
     width: 280px;
     font-size: 26px;
     line-height: 1em;
-    padding-left: 34px;
     font-family: Roboto Slab;
   }
   .rectangle {
-    width: 308px;
+    width: 376px;
     height: 248px;
     background-color: #ffffff;
     border-radius: 13.98px;
     box-shadow: rgba(83, 81, 81, 0.35) 0px 5px 15px;
-    margin-left: 35px;
     margin-top: 28px;
-    margin-left: auto;
     margin-right: auto;
     padding-top: 18.47px;
   }
@@ -1333,10 +1333,10 @@
   }
   .section-start-course {
     background-color: #9dc9c8;
-    margin-left: -35px;
-    padding-left: 34px;
-    width: 377px;
+    width: 100vw;
     height: 363.46px;
+    box-shadow: 0 0 0 100vmax #9dc9c8;
+    clip-path: inset(0 -100vmax);
   }
   .section-start-course .section-title {
     padding-top: 62px;
@@ -1380,10 +1380,12 @@
   }
   footer {
     background-color: black;
-    width: 343px;
+    width: 100vw;
     height: 251px;
     padding-left: 37.5px;
     padding-top: 22.5px;
+    box-shadow: 0 0 0 100vmax black;
+    clip-path: inset(0 -100vmax);
   }
   .logo {
     width: 53.59px;
