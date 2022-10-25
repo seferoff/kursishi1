@@ -1242,6 +1242,7 @@
     line-height: 1.49em;
     margin-bottom: 57px;
   }
+  
   .cards {
     margin-top: 49px;
     margin-left: 60px;
@@ -1292,7 +1293,7 @@
     font-family: Roboto Slab;
   }
   .rectangle {
-    width: 376px;
+    width: 308px;
     height: 248px;
     background-color: #ffffff;
     border-radius: 13.98px;
